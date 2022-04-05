@@ -19,6 +19,8 @@ def choose_operation():
         display.print_message("Delete", True)
     elif option == '5':
         display.print_message("NUmber of clasess: 5", True)
+    elif option == '12':
+        display.print_message("Number of subjects: ", True)
     elif option == '0':
         return False
     else:
