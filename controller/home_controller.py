@@ -10,7 +10,7 @@ def choose():
     elif option == '2':
         display.print_message("Not implemented yet.", True)
     elif option == '0':
-        display.print_message("Bueno, hasta la vista, companeros!")
+        display.print_message("I ruining your code and there is nothing you can do to stop me!!!!!!")
         sys.exit(0)
     else:
         raise KeyError("There is no such option.")
