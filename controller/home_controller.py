@@ -1,7 +1,7 @@
 import sys
 from view import display
 from controller import students_controller
-
+# aici a modificat luca
 
 def choose():
     option = display.get_inputs(["Please enter a number: "], "")[0]
