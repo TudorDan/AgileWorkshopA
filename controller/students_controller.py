@@ -17,6 +17,8 @@ def choose_operation():
         display.print_message("Update", True)
     elif option == '4':
         display.print_message("Delete", True)
+    elif option == '5':
+        display.print_message("NUmber of clasess: 5", True)
     elif option == '0':
         return False
     else:
@@ -29,7 +31,8 @@ def handle_submenu():
                "List students",
                "Add a new student",
                "Update student",
-               "Delete student"]
+               "Delete student",
+               "Number of schoo classess",]
     display.print_menu("Student Classes Submenu", options)
 
 
